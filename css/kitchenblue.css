@@ -1,0 +1,147 @@
+
+
+body {
+  color: #5a5a5a;
+  background-color: chocolate;
+  overflow-x: hidden;
+}
+
+input {
+  width: 30%;
+}
+
+label {
+  color: white;
+  font-size: 2rem;
+  text-align: left;
+  text-shadow: 1px 1px 5px black;
+  width: 20rem;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+p {
+  color: #becbff;
+  font-size: 1.2rem;
+  text-align: center;
+  text-shadow: 1px 1px 5px black;
+}
+
+h1 {
+  color: white;
+  text-shadow: 3px 3px 10px black;
+}
+
+li {
+  color: #becbdd;
+  font-size: 1rem;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+.button {
+  margin: auto;
+  max-width: 65%;
+}
+
+
+
+.hero {
+  display: block;
+  padding-bottom: 100px;
+  height:auto;
+  width: 100%;
+
+}
+
+.section-heading {
+  font-size: 3.3em;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.section-subheading {
+  color: white;
+
+  font-size: 2em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-shadow: 3px 3px 10px black;
+}
+
+.section-description {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.section-divider {
+  margin: 2rem auto;
+  opacity: 0.75;
+  text-align: center;
+}
+
+
+
+.subsection-heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-shadow: 3px 3px 10px black;
+}
+
+.textfield {
+  margin: auto;
+  width: 70%;
+}
+
+#query-form {
+  margin: auto;
+  max-width: 85%;
+}
+
+/* FOOTER
+------------------------- */
+
+footer {
+   background-color: #34699a; 
+   color: white;
+  /* background-image: linear-gradient(to right top, #34699a, #113f67); */
+  padding-bottom: 4rem;
+  padding-top: 1rem;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+}
+
+.copyright-text {
+  color: #becbff;
+}
+
+.results-div{
+  color: yellow;
+  background-color: darkred;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .button {
+    max-width: 100%;
+  }
+
+  .textfield {
+    margin: auto;
+    width: 90%;
+  }
+
+}
