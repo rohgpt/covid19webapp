@@ -1,0 +1,157 @@
+
+
+body {
+  color: #5a5a5a;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+input {
+  width: 30%;
+}
+
+label {
+  color: white;
+  font-size: 2rem;
+  text-align: left;
+  text-shadow: 1px 1px 5px black;
+  width: 20rem;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+p {
+  color: #becbff;
+  font-size: 1.2rem;
+  text-align: center;
+  text-shadow: 1px 1px 5px black;
+}
+
+h1 {
+    color: white;
+    text-shadow: 3px 3px 10px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li {
+  color: #becbdd;
+  font-size: 1rem;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+.button {
+  background-color: lightgrey;
+  margin: auto;
+  width: 40%;
+}
+    .button:hover {
+        background-color: aliceblue;
+    }
+    .hero {
+  display: block;
+  padding-bottom: 100px;
+  height:auto;
+  width: 100%;
+
+}
+
+.section-heading {
+  font-size: 3.3em;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.section-subheading {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-shadow: 3px 3px 10px black;
+}
+
+.section-description {
+    margin-bottom: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.section-divider {
+  margin: 2rem auto;
+  opacity: 0.75;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.subsection-heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-shadow: 3px 3px 10px black;
+}
+
+.textfield {
+    background-color: lightgrey;
+    margin: auto;
+    width: 70%;
+}
+
+#query-form {
+  margin: auto;
+  max-width: 85%;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 99%;
+    background-color: #000000;
+    color: white;
+    background-image: linear-gradient(to right top, #222226, #000000);
+    padding-bottom: 4rem;
+    padding-top: 1rem;
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+}
+
+.copyright-text {
+  color: #becbff;
+}
+
+.results-div {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 19px;
+    background-image: linear-gradient(to right top, #222226, #000000);
+    background-color: black;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .button {
+    max-width: 100%;
+  }
+
+  .textfield {
+    margin: auto;
+    width: 90%;
+  }
+
+}
